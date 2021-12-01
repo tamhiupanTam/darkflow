@@ -94,10 +94,10 @@ def return_predict(self, im):
             "confidence": tmpBox[6],
             "topleft": {
                 "x": tmpBox[0],
-                "y": tmpBox[2]},
+                "y": tmpBox[3]},
             "bottomright": {
                 "x": tmpBox[1],
-                "y": tmpBox[3]}
+                "y": tmpBox[2]}
         })
     return boxesInfo
 
